@@ -13,15 +13,15 @@ Next, the trained random forest model was used to make predictions on the unlabe
 
 <img src="imgs/predicted_profit.png" height=300></img>
 
-The counts of predicted Accepted vs. Lost opportunities for each market are tabulated below.
-
-<img src="imgs/table.png" width=300></img>
-
 Visually, we can get a sense of the distribution of accepted predictions below. Again, Dallas looks to be the most promising.
 
 <img src="imgs/bar_count.png" height=300></img>
 
-Lastly, the proportion of Accepted vs. Lost predictions for each market was investigated. The proportion of potential profit to gain is greater for Denver than for Dallas, but perhaps not by a signficant amount.
+The counts of predicted Accepted vs. Lost opportunities for each market are tabulated below.
+
+<img src="imgs/table.png" width=300></img>
+
+The proportion of Accepted vs. Lost predictions for each market was investigated. The proportion of potential profit to gain is greater for Denver than for Dallas, but perhaps not by a signficant amount. The red area indicates the proportion of predicted opportunities that will be lost, and green indicates predicated opportunities that will be accepted.
 
 <img src="imgs/predicted_proportion.png" height=300></img>
 
@@ -81,5 +81,5 @@ The StageName feature is comprised of the following 6 values:
 
 
 ## Results
-The most important features of an opportunity for predicting it as accepted or lost is the term in months and total BRR. Dallas and Denver are the most promising markets to pursue, with Dallas having a slight advantage in terms of prospective profit. 
+The most important features of an opportunity for predicting it as accepted or lost is the term in months and total BRR. Dallas and Denver are the most promising markets to pursue, with Dallas having a slight advantage in terms of prospective profit.
 :tada:
